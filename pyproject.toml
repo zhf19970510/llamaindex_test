@@ -5,9 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "autogen>=0.13.3",
     "jieba>=0.42.1",
     "llama-index>=0.14.22",
     "llama-index-embeddings-dashscope>=0.5.0",
     "llama-index-llms-dashscope>=0.6.1",
+    "mem0ai[nlp]>=2.0.5",
+    "ollama>=0.6.2",
+    "openai>=2.37.0",
+    "psycopg2-binary>=2.9.12",
     "rank-bm25>=0.2.2",
 ]
